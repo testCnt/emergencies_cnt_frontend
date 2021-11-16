@@ -5,7 +5,7 @@ import axios from 'axios';
 import {Modal, ModalBody, ModalFooter, ModalHeader} from 'reactstrap';
 
 function App() {
-  const urlAPI = "http://localhost:5000/EmergencyPatient";
+  const urlAPI = "http://localhost:80/EmergencyPatient";
   const [data, setData] = useState([]);
   const [dataByRisk, setDataByRisk] = useState([]);
   const [dataHigherPrioritySmokingPatientWithPendingStatus, setDataHigherPrioritySmokingPatientWithPendingStatus] = useState([]);
